@@ -1,0 +1,143 @@
+.mens, .womens, .story {
+    float: left;
+    width: 475px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+
+.small {
+    width: 237.5px;
+    margin-right: 0.5px;
+}
+
+.container {
+    width: 960px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    /*background-color: rgb(131, 110, 170); */
+    grid-gap: 4px;
+    padding: 4px;
+}
+
+.title {
+    align-self: stretch;
+    grid-column-start: 1;
+    grid-column-end: span 4;  
+    background-color: white;
+    height: 500px;
+    overflow: hidden;
+}
+
+#title-text { font-size: 40px}
+
+.mens, .womens  {
+    grid-column-end: span 2;
+    height: auto;
+}
+
+.womens {
+    justify-content:  right;
+}
+
+.mens p, .womens p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: rgb(228, 224, 238);
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mens p{
+        text-align: left;
+
+}
+
+#blank {
+    background-color: white;
+}
+#title-text {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    color: white;
+}
+
+#mens-pred, #womens-pred {
+    background-color:black;
+    height: 50px;
+    font-size: 20px;
+}
+
+#mens-pred:hover, #womens-pred:hover {
+    background-color: rgb(147, 128, 182);    
+}
+
+
+.story{
+    /*background-color: rgb(147, 128, 182);*/
+    background-color: rgb(078, 042, 132);
+    height: 100px;
+}
+
+.story:hover {
+    background-color: rgb(147, 128, 182);
+}
+
+.big {
+    grid-column-end: span 2;
+}
+
+.small {
+    grid-column-end: span 1;
+}
+
+img {
+    width: 100%;
+}
+
+h2, h3{
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+h3 {
+    font-size: 15px;
+    color: rgb(228, 224, 238);
+    margin-left: 20px;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(078, 042, 132);
+    margin-left: 20px;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: rgb(228, 224, 238);
+    margin-left: 20px;
+}
+
+#cred { 
+    font-family: 'Raleway', sans-serif; 
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+a { text-decoration: none; }
+
+#banner {
+    top: 0; 
+    margin-top:-100px;
+}
+
+#filler {
+    height: 200px;
+    overflow: hidden;
+}
+
+#fill-img { margin-top: -50px;}
+
